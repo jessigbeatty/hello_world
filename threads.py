@@ -13,7 +13,7 @@ def time_elapsed():
     while running:
         t += 1
         time.sleep(1)
-        if t == 5:
+        if t == 30:
             running = False
 
 def get_guess():
